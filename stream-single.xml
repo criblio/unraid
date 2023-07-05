@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/criblio/unraid/stream</Support>
+  <Support>https://github.com/criblio/unraid</Support>
   <Project>https://cribl.io/stream</Project>
   <Overview>Cribl Stream helps you process machine data &#x2013; logs, instrumentation data, application data, metrics, etc. &#x2013; in real time, and deliver them to your analysis platform of choice. It allows you to:&#xD;
 - Add context to your data, by enriching it with information from external data sources.&#xD;
@@ -18,7 +18,7 @@ This template will deploy a Cribl Stream instance running in Single (stand-alone
   <Category>Security: Tools: Status:Stable</Category>
   <WebUI>http://[IP]:9000</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/criblio/unraid/stream/logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/criblio/unraid/icons/stream.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>

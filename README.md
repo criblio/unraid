@@ -11,7 +11,7 @@ unRAID version 6.0.0 or later
 
 ### Installation
 1. Navigate to "Docker" tab and then the "Docker Repositories" sub-tab in the unRAID webui
-1. Enter in a URL of https://github.com/binhex/docker-templates in the "Template repositories" field
+1. Enter in a URL of https://github.com/criblio/unraid in the "Template repositories" field
 1. Click on the "Save" button
 1. Click back to "Docker" tab and then click on the "Add Container" button
 1. Click on the "Template" dropdown menu and select the desired Docker image
@@ -29,7 +29,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 ## Contact
-Email Technical Marketing - [tme@cribl.io](mailto:tme@cribl.io)
+Email Technical Marketing - [team-tech-marketing@cribl.io](mailto:team-tech-marketing@cribl.io)
 
 [Cribl Community Slack](https://cribl-community.slack.com/archives/C01EHRKRZFB)
 

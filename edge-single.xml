@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>true</Privileged>
-  <Support>https://github.com/criblio/unraid/edge</Support>
+  <Support>https://github.com/criblio/unraid</Support>
   <Project>https://cribl.io/edge</Project>
   <Overview>Cribl Edge helps you collect and process observability data &#x2013; logs, metrics, application data, etc. &#x2013; in real time, from your Linux and Windows machines, apps, microservices etc., and deliver them to Cribl Stream or any supported destination.&#xD;
 - Automatic discovery of host, container and application metrics, logs, etc. on endpoints.&#xD;
@@ -21,7 +21,7 @@ This template will deploy a Cribl Edge instance running in Single (stand-alone) 
   <Category>Security: Tools: Status:Stable</Category>
   <WebUI>http://[IP]:9420</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/criblio/unraid/edge/logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/criblio/unraid/icons/edge.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
