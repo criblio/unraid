@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/criblio/unraid/icons/cribl.png</Icon>
+  <Profile>
+    Cribl official account for maintaining unRAID docker templates.
+  </Profile>
+</Maintainer>
