@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>CriblEdge</Name>
+  <Repository>cribl/cribl:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://github.com/criblio/unraid/edge</Support>
+  <Project>https://cribl.io/edge</Project>
+  <Overview>Cribl Edge helps you collect and process observability data &#x2013; logs, metrics, application data, etc. &#x2013; in real time, from your Linux and Windows machines, apps, microservices etc., and deliver them to Cribl Stream or any supported destination.&#xD;
+- Automatic discovery of host, container and application metrics, logs, etc. on endpoints.&#xD;
+- Great Getting Data In (GDI) experience: explore, preview, build configs etc.&#xD;
+- Collect, Process and Forward: &#xD;
+   - Collect logs, metrics (host, process, container), traces (coming soon), custom command output etc.&#xD;
+   - All the processing power of functions &amp;amp; pipelines at your fingertips&#xD;
+   - Forward data to any of the many supported destinations&#xD;
+&#xD;
+This template will deploy a Cribl Edge instance running in Single (stand-alone) mode. Single mode is not intended to be managed by a Leader and CANNOT manage other instances.</Overview>
+  <Category>Security: Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:9420</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/criblio/unraid/edge/logo.png</Icon>
+  <ExtraParams>--restart unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1688594198</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="AppScope Socket" Target="/var/run/appscope" Default="" Mode="rw" Description="For use with AppScope source" Type="Path" Display="always" Required="false" Mask="false">/var/run/appscope</Config>
+  <Config Name="Docker Socket" Target="/var/run/docker.sock" Default="" Mode="rw" Description="Path to allow Edge to scrape information from unRAID Docker environment" Type="Path" Display="always" Required="false" Mask="false">/var/run/docker.sock</Config>
+  <Config Name="File Monitor Path" Target="/hostfs" Default="" Mode="ro" Description="Path to allow Edge to monitor files on the host system" Type="Path" Display="always" Required="false" Mask="false">/</Config>
+  <Config Name="Config Path" Target="CRIBL_VOLUME_DIR" Default="" Mode="" Description="Sets the path inside the container where the config will be stored" Type="Variable" Display="always" Required="false" Mask="false">/opt/cribl/config-volume</Config>
+  <Config Name="config" Target="/opt/cribl/config-volume" Default="" Mode="rw" Description="Path to stored local config (for use in stand-alone deployment)" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/cribl/edge</Config>
+</Container>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>CriblStream(Leader)</Name>
+  <Repository>cribl/cribl:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/criblio/unraid/stream</Support>
+  <Project>https://cribl.io/stream</Project>
+  <Overview>Cribl Stream helps you process machine data &#x2013; logs, instrumentation data, application data, metrics, etc. &#x2013; in real time, and deliver them to your analysis platform of choice. It allows you to:&#xD;
+- Add context to your data, by enriching it with information from external data sources.&#xD;
+- Help secure your data, by redacting, obfuscating, or encrypting sensitive fields.&#xD;
+- Optimize your data, per your performance and cost requirements.&#xD;
+&#xD;
+This template will deploy a Cribl Stream instance running in Managed Worker mode. A Managed Worker instance of Stream is not intended to coordinate multiple worker instances and / or Cribl Edge nodes. Please ensure you are running a Leader instance prior to deploying this template.</Overview>
+  <Category>Security: Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:9000</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/criblio/unraid/stream/logo.png</Icon>
+  <ExtraParams>--restart unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1688594117</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Distributed Mode" Target="CRIBL_DIST_MODE" Default="" Mode="" Description="Sets operating mode to Leader" Type="Variable" Display="always" Required="false" Mask="false">worker</Config>
+  <Config Name="Leader URL" Target="CRIBL_DIST_MASTER_URL" Default="" Mode="" Description="Replace `token` with your chosen token from the Leader instance deployment and replace `master` with the DNS name that resolves to the IP address of your Leader instance" Type="Variable" Display="always" Required="false" Mask="false">tcp://token@leader:4200</Config>
+  <Config Name="Config Path" Target="CRIBL_VOLUME_DIR" Default="" Mode="" Description="Sets the path inside the container where the config will be stored" Type="Variable" Display="always" Required="false" Mask="false">/opt/cribl/config-volume</Config>
+  <Config Name="config" Target="/opt/cribl/config-volume" Default="" Mode="rw" Description="Volume for storing the config" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/cribl/stream</Config>
+</Container>
