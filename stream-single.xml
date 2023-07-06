@@ -26,6 +26,7 @@ This template will deploy a Cribl Stream instance running in Single (stand-alone
   <DonateText/>
   <DonateLink/>
   <Requires/>
+  <Config Name="WebUI" Target="9000" Default="" Mode="tcp" Description="Allow access to WebUI" Type="Port" Display="always" Required="false" Mask="false">9000</Config>
   <Config Name="Config Path" Target="CRIBL_VOLUME_DIR" Default="" Mode="" Description="Sets the path inside the container where the config will be stored" Type="Variable" Display="always" Required="false" Mask="false">/opt/cribl/config-volume</Config>
   <Config Name="config" Target="/opt/cribl/config-volume" Default="" Mode="rw" Description="Volume for storing the config" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/cribl/stream</Config>
 </Container>

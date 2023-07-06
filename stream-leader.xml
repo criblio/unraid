@@ -26,6 +26,7 @@ This template will deploy a Cribl Stream instance running in Leader mode. A Lead
   <DonateText/>
   <DonateLink/>
   <Requires/>
+  <Config Name="WebUI" Target="9000" Default="" Mode="tcp" Description="Allow access to WebUI" Type="Port" Display="always" Required="false" Mask="false">9000</Config>
   <Config Name="Distributed Mode" Target="CRIBL_DIST_MODE" Default="" Mode="" Description="Sets operating mode to Leader" Type="Variable" Display="always" Required="false" Mask="false">master</Config>
   <Config Name="Leader URL" Target="CRIBL_DIST_MASTER_URL" Default="" Mode="" Description="Replace `criblmaster` with a more secure token (this will need to match on your worker instances and Edge nodes)" Type="Variable" Display="always" Required="false" Mask="false">tcp://criblmaster@0.0.0.0:4200</Config>
   <Config Name="Config Path" Target="CRIBL_VOLUME_DIR" Default="" Mode="" Description="Sets the path inside the container where the config will be stored" Type="Variable" Display="always" Required="false" Mask="false">/opt/cribl/config-volume</Config>

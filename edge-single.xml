@@ -30,6 +30,7 @@ This template will deploy a Cribl Edge instance running in Single (stand-alone) 
   <DonateLink/>
   <Requires/>
   <Config Name="Cribl Edge" Target="CRIBL_EDGE" Default="" Mode="" Description="Sets the operating mode to Edge Single" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
+  <Config Name="WebUI" Target="9420" Default="" Mode="tcp" Description="Allow access to WebUI" Type="Port" Display="always" Required="false" Mask="false">9420</Config>
   <Config Name="AppScope Socket" Target="/var/run/appscope" Default="" Mode="rw" Description="For use with AppScope source" Type="Path" Display="always" Required="false" Mask="false">/var/run/appscope</Config>
   <Config Name="Docker Socket" Target="/var/run/docker.sock" Default="" Mode="rw" Description="Path to allow Edge to scrape information from unRAID Docker environment" Type="Path" Display="always" Required="false" Mask="false">/var/run/docker.sock</Config>
   <Config Name="File Monitor Path" Target="/hostfs" Default="" Mode="ro" Description="Path to allow Edge to monitor files on the host system" Type="Path" Display="always" Required="false" Mask="false">/</Config>
