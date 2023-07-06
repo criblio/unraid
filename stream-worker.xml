@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>CriblStream(Leader)</Name>
+  <Name>CriblStream(Worker)</Name>
   <Repository>cribl/cribl:latest</Repository>
   <Registry/>
   <Network>bridge</Network>
