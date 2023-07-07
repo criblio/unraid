@@ -18,7 +18,7 @@ This template will deploy a Cribl Stream instance running in Leader mode. A Lead
   <Category>Security: Tools: Status:Stable</Category>
   <WebUI>http://[IP]:9000</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/criblio/unraid/icons/stream.png</Icon>
+  <Icon>https://github.com/criblio/unraid/assets/36555150/a37934ef-2869-43ca-8db2-6a95f405ae64</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>

@@ -22,7 +22,7 @@ This template will deploy a Cribl Edge instance running in Managed Edge mode. Ma
   <Category>Security: Tools: Status:Stable</Category>
   <WebUI>http://[IP]:9420</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/criblio/unraid/icons/edge.png</Icon>
+  <Icon>https://github.com/criblio/unraid/assets/36555150/fafb55e6-c072-4dff-9d55-56f5b69e127c</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
