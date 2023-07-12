@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>Cribl-Edge-Managed</Name>
   <Repository>cribl/cribl:latest</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/cribl/cribl</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>
