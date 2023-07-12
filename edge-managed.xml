@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>CriblEdge(Managed)</Name>
+  <Name>Cribl-Edge-Managed</Name>
   <Repository>cribl/cribl:latest</Repository>
   <Registry/>
   <Network>bridge</Network>
@@ -18,7 +18,6 @@
    - Forward data to any of the many supported destinations&#xD;
 &#xD;
 This template will deploy a Cribl Edge instance running in Managed Edge mode. Managed Edge mode is intended to be managed by a Leader and CANNOT manage other instances. Please ensure you are running a Leader instance prior to deploying this template.</Overview>
-</Overview>
   <Category>Security: Tools: Status:Stable</Category>
   <WebUI>http://[IP]:9420</WebUI>
   <TemplateURL/>

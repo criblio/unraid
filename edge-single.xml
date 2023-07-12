@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>CriblEdge(Single)</Name>
+  <Name>Cribl-Edge-Single</Name>
   <Repository>cribl/cribl:latest</Repository>
   <Registry/>
   <Network>bridge</Network>

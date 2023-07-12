@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>CriblStream(Leader)</Name>
+  <Name>Cribl-Leader</Name>
   <Repository>cribl/cribl:latest</Repository>
   <Registry/>
   <Network>bridge</Network>
@@ -14,7 +14,7 @@
 - Help secure your data, by redacting, obfuscating, or encrypting sensitive fields.&#xD;
 - Optimize your data, per your performance and cost requirements.&#xD;
 &#xD;
-This template will deploy a Cribl Stream instance running in Leader mode. A Leader instance of Stream is intended to coordinate multiple worker instances and / or Cribl Edge nodes.</Overview>
+This template will deploy a Cribl instance running in Leader mode. A Leader instance of Stream is intended to coordinate multiple worker instances and / or Cribl Edge nodes.</Overview>
   <Category>Security: Tools: Status:Stable</Category>
   <WebUI>http://[IP]:9000</WebUI>
   <TemplateURL/>
