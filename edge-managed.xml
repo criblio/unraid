@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>true</Privileged>
-  <Support>https://github.com/criblio/unraid</Support>
+  <Support>https://forums.unraid.net/topic/142063-support-cribl-software-for-unraid/</Support>
   <Project>https://cribl.io/edge</Project>
   <Overview>Cribl Edge helps you collect and process observability data &#x2013; logs, metrics, application data, etc. &#x2013; in real time, from your Linux and Windows machines, apps, microservices etc., and deliver them to Cribl Stream or any supported destination.&#xD;
 - Automatic discovery of host, container and application metrics, logs, etc. on endpoints.&#xD;

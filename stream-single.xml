@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/criblio/unraid</Support>
+  <Support>https://forums.unraid.net/topic/142063-support-cribl-software-for-unraid/</Support>
   <Project>https://cribl.io/stream</Project>
   <Overview>Cribl Stream helps you process machine data &#x2013; logs, instrumentation data, application data, metrics, etc. &#x2013; in real time, and deliver them to your analysis platform of choice. It allows you to:&#xD;
 - Add context to your data, by enriching it with information from external data sources.&#xD;
